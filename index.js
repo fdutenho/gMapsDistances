@@ -31,23 +31,6 @@ function readOrigins() {
    //console.log("*** origings read ***");
 }
 
-function readOrigins() {
-   const lineByLine = require('n-readlines');
-   const liner = new lineByLine('input.csv');
-   var o = [];
-
-   let line;
-   while (line = liner.next()) {
-      //console.log('line ' + lineNumber + ': ' + line.toString());
-      var lineItems = line.toString().split(';');
-      var newOrigin = {lat: lineItems[0], lng: lineItems[1], count: lineItems[2]}
-      //console.debug("new origin: " + JSON.stringify(newOrigin));
-      o.push(newOrigin);
-   }
-   return o;
-   //console.log("*** origings read ***");
-}
-
 http.createServer(function (req, res) {
    if (req.url == '/json' || req.url == '/csv') {
       var origins = readOrigins(origins);

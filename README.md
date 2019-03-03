@@ -6,7 +6,9 @@ to one destination, creates a JSON or a CSV file.
 # Usage
 
 ## configure
-You need to add a `gooleAPI.key` file containing your goole API key.
+1. You need to add a `gooleAPI.key` file containing your goole API key.
+2. modify the `input.csv` file and add your origns here (use `;` to separate the entries)
+3. change the `const destination = {"lat": 50.580276, "lng": 8.664836};` to your destination
 
 ## run
 1. start the node server
