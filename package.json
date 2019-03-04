@@ -2,27 +2,27 @@
   "name": "gmapsdistances",
   "version": "1.0.0",
   "description": "calc distances and commuting times",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Frank Dutenhöfer",
-  "license": "GPL",
-  "dependencies": {
-    "@google/maps": "^0.5.5",
-    "n-readlines": "^1.0.0",
-    "nodemon": "^1.18.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fdutenho/gMapsDistances.git"
-  },
   "keywords": [
     "google maps",
     "travel time"
   ],
+  "homepage": "https://github.com/fdutenho/gMapsDistances#readme",
   "bugs": {
     "url": "https://github.com/fdutenho/gMapsDistances/issues"
   },
-  "homepage": "https://github.com/fdutenho/gMapsDistances#readme"
+  "license": "GPL",
+  "author": "Frank Dutenhöfer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdutenho/gMapsDistances.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "n-readlines": "^1.0.0",
+    "nodemon": "^1.18.10"
+  }
 }
