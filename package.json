@@ -23,6 +23,6 @@
   "dependencies": {
     "@google/maps": "^0.5.5",
     "n-readlines": "^1.0.0",
-    "nodemon": "^1.18.10"
+    "nodemon": "^2.0.20"
   }
 }
